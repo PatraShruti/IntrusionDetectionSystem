@@ -1,6 +1,6 @@
-# 🔐 Network Intrusion Detection System using Machine Learning
+# Network Intrusion Detection System using Machine Learning
 
-## 📌 Overview
+## Overview
 
 This project is a Machine Learning–based Network Intrusion Detection System (IDS) developed using Python and Flask.  
 It predicts whether incoming network traffic is **Normal** or an **Attack**, and if malicious, it also identifies the **attack type**.
@@ -9,7 +9,7 @@ The system uses trained ML models and provides a web interface for real-time pre
 
 ---
 
-## ✨ Features
+## Features
 
 - Web-based interface using Flask  
 - Binary classification (Normal vs Attack)  
@@ -21,7 +21,7 @@ The system uses trained ML models and provides a web interface for real-time pre
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python  
 - Flask  
@@ -34,7 +34,7 @@ The system uses trained ML models and provides a web interface for real-time pre
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 project-folder/
@@ -54,7 +54,7 @@ project-folder/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The models were trained using a dataset inspired by **NSL-KDD / KDD Cup 99**, containing network traffic features such as:
 
@@ -71,7 +71,7 @@ The models were trained using a dataset inspired by **NSL-KDD / KDD Cup 99**, co
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 - Binary Classification Accuracy: ~95%  
 - Attack Type Classification Accuracy: ~90%  
@@ -106,19 +106,15 @@ python app.py
 http://127.0.0.1:5000/
 ```
 
-### ▶️ How to Use
+### How to Use
 
 -  Enter network traffic feature values
 - Click Predict
 - View results:
   - Normal / Attack
   - Attack Type
-
-### 📸 Screenshots
-![IDS Home](screenshots/ids.png)
-![Prediction Result](screenshots/ids1.png)
-
-### 📈 Future Enhancements
+    
+### Future Enhancements
 - Upload CSV dataset
 - Improve UI
 - Authentication
@@ -126,15 +122,10 @@ http://127.0.0.1:5000/
 - Dashboard visualization
 - Real-time packet capture
 ---
-### 🎯 Learning Outcomes
+### Learning Outcomes
 - Machine Learning in Cybersecurity
 - Flask application development
 - ML model deployment
 - Feature scaling
 - End-to-end ML workflow
 ---
-## 👨‍💻 Author
-**Prem Kumar Gupta**
-
-### 📄 License
-This project is open-source under the MIT License.
