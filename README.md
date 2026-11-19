@@ -82,22 +82,17 @@ The models were trained using a dataset inspired by **NSL-KDD / KDD Cup 99**, co
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone Repository
 
-```bash
-git clone https://github.com/Prem20-creator/IDS.git
-cd project-folder
-```
-### 2️⃣ Create Virtual Environment
+### Create Virtual Environment
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
-### 3️⃣ Install Dependencies
+### Install Dependencies
 ```bash
 pip install flask numpy pandas scikit-learn joblib
 ```
-### 4️⃣ Run Application
+### Run Application
 ```bash
 python app.py
 ```
